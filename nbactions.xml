@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-production-site-deploy </actionName>
+            <displayName>production-site-deploy </displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>verify</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>site-deploy</activatedProfile>
+            </activatedProfiles>
+        </action>
+    </actions>
